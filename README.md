@@ -13,12 +13,19 @@ SSR using fastify instead of express.
 
 ## Benchmarks
 
-Using express for ssr (commit: )
+Using express for ssr (commit: 163b16cf54404ff94ecd0a96a6156682d9bac85c )
+<p>
+  <img width="80%" src="https://res.cloudinary.com/dorivumjs/image/upload/v1675597794/express.bench_lgvuuo.png" alt="Express ssr benchmarks">
+</p>
+Result: ~3000req/sec
 
-Using fastify for ssr (commit: )
+Using fastify for ssr
+<p>
+  <img width="80%" src="https://res.cloudinary.com/dorivumjs/image/upload/v1675597811/fastify-bench_a13osv.png" alt="Fastify ssr benchmarks">
+</p>
+Result: ~7600req/sec
 
-
-Note: x improvement in concurrency after switching to fastify
+Note: 2x improvement in concurrency after switching to fastify
 
 ## solid-ssr/static
 
