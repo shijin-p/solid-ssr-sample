@@ -12,7 +12,7 @@ export default [
         format: "cjs"
       }
     ],
-    external: ["solid-js", "solid-js/web", "path", "express", "stream", "fastify"],
+    external: ["solid-js", "solid-js/web", "path", "express", "stream", "fastify", "@fastify/cors", "@fastify/static"],
     plugins: [
       nodeResolve({ preferBuiltins: true, exportConditions: ["solid", "node"] }),
       babel({

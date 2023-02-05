@@ -1,11 +1,11 @@
-# `solid-ssr (ssg)`
+# `solid-ssr`
 
 This library provides tools to help with SSR. So far it's a simple Static Generator.
 To run
 ```bash
 pnpm i
-pnpm build:example:ssr --stream
-pnpm start:example:ssr --stream 
+pnpm build:example:ssr
+pnpm start:example:ssr
 ```
 
 Copied from solid js samples
@@ -59,8 +59,8 @@ Using async compiler configuration to statically generate pages. Removes the tim
 
 Examples run on http://localhost:8080/. To run them (in this case ssr):
 ```
-pnpm build:example:ssr --stream
-pnpm start:example:ssr --stream
+pnpm build:example:ssr
+pnpm start:example:ssr
 ```
 
 |folder/example name|ssr|async|stream|ssg|
