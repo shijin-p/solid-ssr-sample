@@ -1,14 +1,24 @@
-# `solid-ssr`
+# `solid-ssr (Fastify)`
 
 This library provides tools to help with SSR. So far it's a simple Static Generator.
 To run
 ```bash
 pnpm i
-pnpm build:example:ssr
+pnpm clean && pnpm build:example:ssr
 pnpm start:example:ssr
 ```
 
-Copied from solid js samples
+Copied from solid js samples. Modified ssr example.
+SSR using fastify instead of express.
+
+## Benchmarks
+
+Using express for ssr (commit: )
+
+Using fastify for ssr (commit: )
+
+
+Note: x improvement in concurrency after switching to fastify
 
 ## solid-ssr/static
 
